@@ -11,8 +11,12 @@
     "mysql": "^2.15.0",
     "request": "^2.83.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^11.0.0"
+  },
   "scripts": {
+    "lint":"standard --fix",
+    "start":"npm run lint && nodemon src/app.js",
     "test": "npm test"
   },
   "repository": {
