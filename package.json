@@ -15,8 +15,8 @@
     "standard": "^11.0.0"
   },
   "scripts": {
-    "lint":"standard --fix",
-    "start":"npm run lint && nodemon src/app.js",
+    "lint": "standard --fix",
+    "start": "npm run lint && nodemon src/app.js",
     "test": "npm test"
   },
   "repository": {
